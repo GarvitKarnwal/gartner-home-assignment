@@ -24,15 +24,15 @@ namespace ProductImporter
                 foreach (var feed in feeds)
                 {
                     Console.WriteLine(feed);// or feeds could be written in a text file. 
-                }
-
-                Console.WriteLine("Press key to exit!");
-                Console.ReadKey();
+                }                
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Error Message: {ex.Message}");
             }
+            
+            Console.WriteLine("Press key to exit!");
+            Console.ReadKey();
         }
 
         /// <summary>
